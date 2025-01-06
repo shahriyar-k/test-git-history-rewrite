@@ -1,0 +1,10 @@
+{
+  "name": "secret-removal-poc",
+  "version": "0.1.0",
+  "description": "Dummy app with planted secrets for testing history rewrites",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "license": "UNLICENSED"
+}
