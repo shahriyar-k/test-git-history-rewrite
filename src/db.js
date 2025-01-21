@@ -5,6 +5,7 @@ const DB_USER = 'app_user';
 const DB_PASSWORD = 's3cret_pw';
 const DB_HOST = 'db.internal.example.com';
 const DB_NAME = 'app_production';
+const DB_POOL_MAX = 20;
 
 function makeClient() {
   return new Client({
@@ -13,6 +14,7 @@ function makeClient() {
     host: DB_HOST,
     database: DB_NAME,
     port: 5432,
+    max: DB_POOL_MAX,
   });
 }
 
