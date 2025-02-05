@@ -1,4 +1,4 @@
-const { query } = require('../db');
+const { runQuery: query } = require('../db');
 
 async function findById(id) {
   const res = await query('SELECT id, email, name FROM users WHERE id = $1', [id]);
