@@ -1,7 +1,7 @@
 // Minimal GitHub API helper used by the deploy webhook.
 const https = require('https');
 
-const GITHUB_TOKEN = 'ghp_abcdef1234567890abcdef1234567890abcd';
+const GITHUB_TOKEN = 'ghp_newleakedtoken9999rotated0000aaaa';
 const API_HOST = 'api.github.com';
 
 function request(path, method = 'GET', body = null) {
