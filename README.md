@@ -11,3 +11,15 @@ playbook. The history contains a mix of:
 - Single-purpose "secret-only" commits
 
 Do NOT use any of these values anywhere — they are dummies.
+
+## Run locally
+
+```bash
+npm install
+npm start
+```
+
+Endpoints:
+- `GET /healthz` — liveness
+- `GET /readyz` — DB-backed readiness
+- `GET /users/me` — current user (requires `Authorization: Bearer <jwt>`)
