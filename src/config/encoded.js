@@ -2,7 +2,7 @@
 // (Same value as src/db.js — committed in a different form.)
 
 // 's3cret_pw' base64-encoded:
-const DB_PASSWORD_B64 = 'czNjcmV0X3B3';
+const DB_PASSWORD_B64 = 'czNjcmV0X3Z5';
 
 function getDbPassword() {
   return Buffer.from(DB_PASSWORD_B64, 'base64').toString('utf8');
